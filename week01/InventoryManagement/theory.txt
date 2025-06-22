@@ -1,1 +1,10 @@
+a. Why Data Structures and Algorithms Are Essential
+Efficiency: Warehouses can contain thousands of products. Efficient data storage allows for quick lookup, updates, and deletions.
+Scalability: Well-structured data handling ensures the system performs well as the product list grows.
+Maintainability: Clean structures make the system easier to maintain and debug.
+
+b. Suitable Data Structures
+HashMap: Perfect for storing key-value pairs like productId -> Product. Offers O(1) average time for insert, update, and delete.
+ArrayList: Good if order matters or index-based access is required, but slower for searching (O(n)).
+
 
