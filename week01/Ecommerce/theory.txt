@@ -1,0 +1,25 @@
+1. Understanding Asymptotic Notation
+Big O Notation describes how an algorithm’s runtime grows relative to input size (n).
+It helps compare algorithm performance regardless of machine or implementation.
+Best Case (Ω): Minimum time (e.g., target is first element)
+Average Case (Θ): Expected time over many runs
+Worst Case (O): Maximum time (e.g., target is last or missing)
+
+2. Search Algorithms
+Linear Search
+Description: Scans each product one by one.
+Best Case: O(1) – first element match
+Worst Case: O(n) – last element or not found
+Binary Search
+Description: Efficient search on sorted arrays by repeatedly dividing the range.
+Best Case: O(1) – middle element match
+Worst Case: O(log n) – divides range each step
+
+3. Which is Better for E-commerce?
+-Binary Search is used when:
+-Products are sorted by ID (or can be sorted once and kept that way)
+-For fast, scalable performance
+Linear Search is used when:
+-Dataset is small
+-Sorting isn't possible
+-Flexible criteria is needed.
