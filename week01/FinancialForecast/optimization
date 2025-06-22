@@ -1,0 +1,21 @@
+Future Val = Present Val × (1 + rate) ^ years
+
+
+Optimization of Recursive Financial Forecasting
+1. Time and Space Complexity
+The recursive approach has O(n) time complexity, where n is the number of years.
+
+It also uses O(n) space due to the function call stack, which may lead to stack overflow for large n.
+
+2. Tail Recursion
+Tail recursion is a form of recursion where the recursive call is the last operation in the function.
+
+It can be optimized by some compilers to avoid adding new stack frames.
+
+However, Java does not perform tail call optimization, so it doesn't reduce stack usage in practice.
+
+3. Iterative Approach
+A loop-based (iterative) version is more efficient in Java for this type of calculation.
+
+It avoids recursion altogether, reducing space complexity to O(1).
+
